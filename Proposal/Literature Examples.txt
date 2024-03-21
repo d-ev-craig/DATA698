@@ -1,0 +1,6 @@
+Sensor Equipped Machines Evaluation - https://www.sciencedirect.com/science/article/pii/S1877705812017092
+
+Tracking Free Weight Exercises - https://link.springer.com/chapter/10.1007/978-3-540-74853-3_2
+	- Naive Bayes Classifier
+	- Hidden Markov Model
+	

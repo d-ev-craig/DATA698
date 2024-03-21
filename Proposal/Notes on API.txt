@@ -1,0 +1,29 @@
+Kdc72700!
+
+Ideas on Dota 2:
+- Predict Teamfight Win
+- Predict Overall Game Win - at given time
+- Predict Hero Win - at given time
+
+Notes on Dota 2 API:
+
+lh_t - the number of last hits a hero has at each minute mark
+		- if a game was 5 minutes long, there would be 5 entries each taken at the minute marks
+		
+gold_t - theory: amount of gold gained outside starting gold
+
+0: 5
+- bounty rune 40g
+- last hit 37g
+-
+
+
+Lina:
+- bounty rune 40g
+- last hit 38g
+- last hit 36g
+- last hit 39g
+- last hit 52g
+- last hit 39g
+- last hit 35g
+- 

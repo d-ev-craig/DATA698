@@ -1,0 +1,23 @@
+SELECT
+        
+matches.match_id,
+matches.hero_id,
+matches.radiant_gold_adv,
+matches.radiant_win,
+mathces.radiant_xp_adv,
+matches.teamfights,
+matches.radiant_team,
+matches.dire_team,
+player_matches.gold_t,
+((player_matches.player_slot < 128) = matches.radiant_win) win,
+player_matches.hero_id,
+player_matches.account_id,
+
+FROM matches
+JOIN match_patch using(match_id)
+JOIN player_matches using(match_id)
+JOIN heroes on heroes.id = player_matches.hero_id
+
+WHERE matches.start_time >= extract(epoch from timestamp '2024-02-11T20:31:34.355Z')
+ORDER BY matches.match_id NULLS LAST
+LIMIT 200
