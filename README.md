@@ -21,6 +21,11 @@ This project evaluates the effects of:
 - using different embed sizes on forecasting horizons
 - evaluating if embeddings are useful at all in forecasting or classifying
 
+Follow this link to see the entire [paper](/Proposal/5_6_Submitted_Final.pdf)
+
+## Presentation Slides
+ ![Slides](pres.gif)
+
 ## Breakdown of Code
 
 * Due to some computing limitations at the time, the data was broken into different sets of data to train different random forest/xgboost models. The data and models were segmented to train and predict on game metrics at every 5 minutes between minute 15 and minute 45 of a game.
