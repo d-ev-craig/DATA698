@@ -5,6 +5,8 @@ This repository contains the Colab Notebooks stored at: https://drive.google.com
 This code is meant to be used in the Colab Environment. If downloading from this github, enter the "Code" folder to see a nested folder also called "698." Download that 698 folder and upload it to Google Drive, allow Colab to access your Drive and the code/navigational paths should function. 
 This project is my first time using PyTorch to generate forecasted values using the LSTM model (a recurrent neural network / RNN) and using these forecasted values as features in a classifier to determine the winner of a Dota 2 match.
 
+The leading research up to this point has achieved 75 - 95% accuracy in predictions at different stages in the game. The methods used here achieved 80 - 90% accuracy across the same stages.
+
 
 ## Contextual Summary on Purpose and Data
 
